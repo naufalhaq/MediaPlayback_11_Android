@@ -53,17 +53,17 @@ public class MainActivity extends AppCompatActivity {
                 SinetronModel sinetronModel = SinetronModel.drama[(int) id];
                 Uri videoUri = dapatkanMedia(sinetronModel.getVideoRawId());
                 buatPlayer(videoUri);
-                switch (position){
-                    case 0:
-                        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.wonder_woman));
-                        break;
-                    case 1:
-                        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.aquaman));
-                        break;
-                    case 2:
-                        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.batman));
-                        break;
-                }
+//                switch (position){
+//                    case 0:
+//                        videoView.setVideoURI(Uri.parse(""));
+//                        break;
+//                    case 1:
+//                        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.aquaman));
+//                        break;
+//                    case 2:
+//                        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.batman));
+//                        break;
+//                }
 
                 //Menambah controller playback
                 videoView.setMediaController(new MediaController(MainActivity.this));

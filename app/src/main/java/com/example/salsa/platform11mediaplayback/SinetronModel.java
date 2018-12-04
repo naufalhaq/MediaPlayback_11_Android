@@ -6,7 +6,7 @@ public class SinetronModel {
 
     public static final SinetronModel[] drama = {
 
-            new SinetronModel("Wonder Woman", "02:51", "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"),
+            new SinetronModel("Wonder Woman", "05:12", "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"),
             new SinetronModel("Aquaman", "02:51", "aquaman"),
             new SinetronModel("Batman", "02:51", "batman"),
     };
